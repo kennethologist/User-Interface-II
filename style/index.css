@@ -1,1 +1,252 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+/* General Styling */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  background-color: #fbfffb;
+  color: #4f4f4f;
+}
+
+h1 {
+  color: #fbfffb;
+  font-size: 10rem;
+}
+
+h2,
+h3 {
+  color: #1d1d1d;
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+button {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.8rem;
+  padding: 2% 4%;
+  margin-top: 4%;
+}
+
+section,
+footer {
+  padding: 4% 0;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  /* padding: 2% 0; */
+  display: flex;
+  /* justify-content: space-between; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.links a {
+  width: 5%;
+  text-align: center;
+}
+
+.links a:hover {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+#top {
+  height: 80vh;
+  background-image: url("../images/top-bg.jpg");
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#top button {
+  border: 2px solid #272727;
+  color: #3a3a3a;
+  background-color: white;
+  transition: 2s;
+}
+
+#top button:hover {
+  color: #fff;
+  background-color: #3a3a3a;
+  border: 2px solid #fff;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.galleryitem {
+  width: 33%;
+  text-align: center;
+  justify-content: center;
+  border: red solid 3px;
+}
+
+.itemtitle {
+  text-align: center;
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #3a3a3a;
+}
+
+footer a {
+  text-align: center;
+  height: 5%;
+  background-color: #fff;
+}
+
+#socialicons {
+    
+}
